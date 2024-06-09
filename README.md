@@ -13,15 +13,18 @@ Primero, asegúrate de tener Anaconda instalado. Luego, crea un entorno virtual 
 ```bash
 conda create -n langchain_env python=3.11
 conda activate langchain_env
+```
 
-## Instalar Dependencias
+## Instalación
 Instala streamlit ejecutando el siguiente comando dentro del entorno virtual:
 
 ```bash
 pip install streamlit
+```
 
 ## Ejecutar la aplicación
 Para ejecutar la aplicación de Streamlit, usa el siguiente comando:
 
 ```bash
 streamlit run app.py
+```
